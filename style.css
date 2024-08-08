@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "General Sans";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+
+#main{
+    width: 100%;
+    
+}
+
+#home{
+    width: 100%;
+    
+}
+
+#phone-nav{
+    background-color: white;
+    width: 100%;
+    height: 35vh;
+}
+
+#phone-nav-heading{
+    display: none;
+}
+
+#logo-nav{
+    background-color: #07234b;
+    width: 100%;
+    height: 33vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 2vw;
+    flex-direction: column;
+    
+    gap: 2vw;
+    
+}
+
+#logo-nav img{
+    margin-left: 46vw;
+}
+
+#dtc-logo{
+    
+    height: 8.981vh;
+    width: 6.614vw;
+    
+}
+
+#logo-name h5{
+    text-transform: capitalize;
+    color: #99d0d7;
+    font-family: "Merriweather", "Times New Roman", Times, serif;
+    font-weight: 700;
+    font-size: 31px;
+    text-align: center;
+
+}
+body {
+    background-color: #ffffff;
+}
+
+
+
+#body-like{
+    background-color: rgb(218, 239, 240);
+    width: 100%;
+    height: 110vh;
+    flex-grow: 1;
+    display: flex;
+    justify-content:center;
+    padding: 10vh 0vh;
+}
+
+#footer{
+    height: 18vh;
+    width: 100%;
+    background-color: rgb(2, 163, 166);
+}
+
+#third{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#outter-most{
+    width: 80%;
+    height: 90vh;
+    background-color: rgb(250, 250, 250);
+    padding-top: 4.5vh;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+#inner{
+    position: relative;
+    width: 95%;
+    border-top: 2px solid rgb(2, 163, 166);
+    height: 85vh;
+    /* background-color: rgb(255, 255, 255); */
+    padding: 1vw 0;
+    overflow: hidden;
+    outline: 1px solid rgb(222, 222, 222);
+}
+
+
+
+
+
+#pass-info-box{
+    /* background-color: rgb(255, 255, 255); */
+    
+    width: auto;
+    height: 80vh;
+    position: relative;
+    z-index: 1;
+    /*
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    */
+    
+}
+
+/*experimental code */
+
+
+#pass-info-box::before {
+    content: "";
+    background-image: url('Dtc.jpeg');
+    
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    opacity: 0.6; 
+    
+  }
+/*ENDS */
+
+#pass-info-box-heading{
+    border-bottom: 1px solid rgb(222, 222, 222);
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    padding: 10px 0;
+    
+}
+
+#pass-info-box-heading h3{
+    color: rgb(2, 163, 166);
+    font-family: "Merriweather", "Times New Roman", Times, serif;
+    font-size: 1.3vw;
+    text-decoration: underline;
+    z-index: 1;
+    
+}
+
+#pass-info-box-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+
+#pass-info-box-image img{
+    height: 250px;
+    width: 250px;
+    z-index: -1;
+}
+
+
+/* experimental code*/
+
+/*BUS PASS PE NAME*/
+
+#pass-info-box-name{
+    display: flex;
+    justify-content: center;
+
+}
+
+#pass-info-box-nameA{
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase; 
+    font-size: 20px;
+      
+}
+
+/*BUS PASS TYPE*/
+#pass-info-box-passType{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+
+}
+
+#pass-info-box-passTypeA{
+    position: relative;
+    z-index: 1;
+       
+}
+
+#pass-info-box-passTypeA h3{
+    
+    font-size: 20px;    
+}
+
+/*BUS PASS NUMBER*/
+#pass-info-box-BuspassNo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    padding-top: 15px;
+    gap: 10px;
+    
+}
+
+#pass-info-box-BuspassNoA{
+    font-size: 25px;
+    font-style: "open-sans";
+    font-weight: 900;
+}
+
+#pass-info-box-BuspassNoB{
+    font-size: 25px;
+    font-style: "Open Sans";
+    font-weight: 900;
+    color: green;
+}
+
+
+/*BLINKING CODE*/
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+  
+.blinking {
+animation: blink 2s infinite; /* Adjust the duration as needed */
+}
+
+#red-text-below-number{
+    color: red;
+    position: relative;
+    z-index: 1;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#red-text{
+    font-weight: bolder;
+}
+
+
+#officials-marking{
+    width: 100%;
+    border-top: 1px solid rgb(222, 222, 222);
+    display: flex;
+    position: relative;
+}
+
+#sign{
+    width: 50%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: left;
+    padding-left: 10px;
+    padding-top: 14px;
+    
+}
+
+#sign , #qr-code{
+    flex: 1;
+    box-sizing: border-box;
+}
+
+#officials-marking::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px; 
+    background-color: rgb(222, 222, 222);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+#sign img{
+    height: 80px;
+    width: 80px;
+    
+    
+}
+
+#qr-code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#qr-code img{
+    height: 80px;
+    width: 80px;
+}
+
+
+
+/* ENDS */
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    #logo-nav {
+      display: none;
+      flex-direction: column; 
+      justify-content: center; 
+      align-items: center; 
+    }
+  
+    
+
+    #phone-nav{
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #phone-nav-heading{
+        display: block;
+        color:rgb(2, 163, 166);
+        font-weight: bold;
+    }
+
+    #outter-most{
+        width: 90%;
+    }
+
+    #body-like{
+        padding:0;
+    }
+
+    #outter-most{
+        background-color:rgb(218, 239, 240) ;
+    }
+    
+    #inner{
+        width: 100%;
+        background-color: rgba(255,255,255,1);
+        border-top: none;
+    }
+    
+
+    
+    #pass-info-box-heading h3{
+        font-size: 2.5vh;
+    }
+    
+  }
+
+
+
+
+
